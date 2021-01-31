@@ -1,20 +1,27 @@
 {
   "files": {
-    "main.css": "/memory-game/static/css/main.770fd8cf.chunk.css",
-    "main.js": "/memory-game/static/js/main.9e88fa4c.chunk.js",
-    "main.js.map": "/memory-game/static/js/main.9e88fa4c.chunk.js.map",
+    "main.css": "/memory-game/static/css/main.56be5895.chunk.css",
+    "main.js": "/memory-game/static/js/main.dae78f8a.chunk.js",
+    "main.js.map": "/memory-game/static/js/main.dae78f8a.chunk.js.map",
     "runtime-main.js": "/memory-game/static/js/runtime-main.c2a72957.js",
     "runtime-main.js.map": "/memory-game/static/js/runtime-main.c2a72957.js.map",
-    "static/js/2.9869d379.chunk.js": "/memory-game/static/js/2.9869d379.chunk.js",
-    "static/js/2.9869d379.chunk.js.map": "/memory-game/static/js/2.9869d379.chunk.js.map",
+    "static/js/2.040cd986.chunk.js": "/memory-game/static/js/2.040cd986.chunk.js",
+    "static/js/2.040cd986.chunk.js.map": "/memory-game/static/js/2.040cd986.chunk.js.map",
     "index.html": "/memory-game/index.html",
-    "static/css/main.770fd8cf.chunk.css.map": "/memory-game/static/css/main.770fd8cf.chunk.css.map",
-    "static/js/2.9869d379.chunk.js.LICENSE.txt": "/memory-game/static/js/2.9869d379.chunk.js.LICENSE.txt"
+    "static/css/main.56be5895.chunk.css.map": "/memory-game/static/css/main.56be5895.chunk.css.map",
+    "static/js/2.040cd986.chunk.js.LICENSE.txt": "/memory-game/static/js/2.040cd986.chunk.js.LICENSE.txt",
+    "static/media/bulbasaur.983b71e8.png": "/memory-game/static/media/bulbasaur.983b71e8.png",
+    "static/media/charmander.568b1c48.png": "/memory-game/static/media/charmander.568b1c48.png",
+    "static/media/cyndaquil.9135ec4f.png": "/memory-game/static/media/cyndaquil.9135ec4f.png",
+    "static/media/mudkip.9b102535.png": "/memory-game/static/media/mudkip.9b102535.png",
+    "static/media/pokelogo.svg.e80c762b.png": "/memory-game/static/media/pokelogo.svg.e80c762b.png",
+    "static/media/squirtle.f9533a54.png": "/memory-game/static/media/squirtle.f9533a54.png",
+    "static/media/treecko.d21dbf34.png": "/memory-game/static/media/treecko.d21dbf34.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c2a72957.js",
-    "static/js/2.9869d379.chunk.js",
-    "static/css/main.770fd8cf.chunk.css",
-    "static/js/main.9e88fa4c.chunk.js"
+    "static/js/2.040cd986.chunk.js",
+    "static/css/main.56be5895.chunk.css",
+    "static/js/main.dae78f8a.chunk.js"
   ]
 }

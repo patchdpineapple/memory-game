@@ -1,2 +1,0 @@
-(this["webpackJsonpmemory-game"]=this["webpackJsonpmemory-game"]||[]).push([[0],{10:function(e,n,t){},11:function(e,n,t){"use strict";t.r(n);var c=t(0),r=t(1),o=t.n(r),s=t(3),i=t.n(s);t(9),t(10);var a=function(){return Object(c.jsx)("div",{className:"App",children:Object(c.jsx)("h1",{children:"Hello"})})};i.a.render(Object(c.jsx)(o.a.StrictMode,{children:Object(c.jsx)(a,{})}),document.getElementById("root"))},9:function(e,n,t){}},[[11,1,2]]]);
-//# sourceMappingURL=main.9e88fa4c.chunk.js.map
