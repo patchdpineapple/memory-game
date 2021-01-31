@@ -1,26 +1,46 @@
 .Pokemon {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    margin: 5px;
-    border: 5px solid #3b45ca;
-    border-radius: 20px;
-    width: 180px;
-    height: 180px;
-    background-color: rgba(233, 233, 31, 0.829);
-    box-shadow: 0 3px 10px 1px rgba(0, 0, 0, 0.418);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+  border: 5px solid #3b45ca;
+  border-radius: 20px;
+  width: 180px;
+  height: 180px;
+  background-color: rgba(233, 233, 31, 0.829);
+  box-shadow: 0 3px 10px 1px rgba(0, 0, 0, 0.418);
+}
+
+.pokepic {
+  width: 70%;
+  height: 70%;
 }
 
 .Pokemon:active {
-    transform: scale(0.98);
-  }
-  
+  transform: scale(0.98);
+}
 
 .Pokemon > div {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 360px) {
+  .Pokemon {
+    width: 90px;
+    height: 110px;
+  }
+
+  .pokepic {
+    width: 80%;
+    height: 80%;
+  }
+
+  .pokeinfo {
+    font-size: 12px;
+  }
 }

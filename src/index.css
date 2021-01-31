@@ -54,3 +54,11 @@ body {
   display: block;
   width: 100%;
 }
+
+@media (max-width: 414px) {
+  body {
+   
+    padding: 0px;
+  
+  }
+}

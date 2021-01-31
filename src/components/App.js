@@ -29,6 +29,7 @@ function App() {
       show: shouldShow,
       perfect: shouldPerfect,
     });
+    setPokeList(defaultorder);
     setShowGame(!showGame);
   };
 
@@ -36,7 +37,7 @@ function App() {
   //increment score when clicked and set high score if clicked more than once, then reset current score;
   //shows game over screen and perfect score screen depending on outcome of game
   const handleChoose = (pokemon) => {
-    if (!pokemon.clicked) {
+     if (!pokemon.clicked) {
       setCurrentScore(currentScore + 1);
       setPokeList(
         pokeList.map((poke) => {
@@ -47,7 +48,11 @@ function App() {
           return poke;
         })
       );
-      
+
+      if ((currentScore + 1) === 12) {
+        setHighScore(currentScore + 1);
+        toggleStatus(true, true);
+      } 
     } else {
       if (currentScore > highScore) setHighScore(currentScore);
       setPokeList(
@@ -58,8 +63,6 @@ function App() {
       );
       toggleStatus(true, false);
     }
-
-    if(currentScore === 12) toggleStatus(true, true);
     console.log(currentScore);
   };
 
@@ -89,7 +92,6 @@ function App() {
           isPerfect={showStatus.perfect}
           onToggleStatus={toggleStatus}
           setCurrentScore={setCurrentScore}
-          
         />
       ) : null}
       {showStart ? <Start onToggleStart={toggleStart} /> : ""}
